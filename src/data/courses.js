@@ -1,0 +1,396 @@
+export const courses = [
+  {
+    id: "react-mastery",
+    title: "React.js: From Zero to Production",
+    category: "Development",
+    level: "Intermediate",
+    duration: "8h 40m",
+    lessonsCount: 18,
+    rating: 4.9,
+    students: "2.4k",
+    price: 0,
+    instructor: "Sarah Johnson",
+    role: "Senior Frontend Engineer",
+    avatar: "https://i.pravatar.cc/100?img=47",
+    cover:
+      "https://images.unsplash.com/photo-1633356122544-f134324a6cee?auto=format&fit=crop&w=1000&q=85",
+    accent: "violet",
+    description:
+      "Build modern, scalable interfaces with React. Learn component architecture, hooks, routing, state management, and practical production patterns through guided projects.",
+    skills: [
+      "React fundamentals",
+      "Hooks & state",
+      "React Router",
+      "Reusable architecture",
+    ],
+    lessons: [
+      {
+        id: "r1",
+        title: "Welcome & course roadmap",
+        duration: "08:24",
+        type: "video",
+      },
+      {
+        id: "r2",
+        title: "Thinking in components",
+        duration: "18:10",
+        type: "video",
+      },
+      {
+        id: "r3",
+        title: "Props, state and events",
+        duration: "22:45",
+        type: "video",
+      },
+      {
+        id: "r4",
+        title: "Knowledge check: React basics",
+        duration: "10 min",
+        type: "quiz",
+        quiz: "react",
+      },
+      {
+        id: "r5",
+        title: "Working with React Hooks",
+        duration: "26:32",
+        type: "video",
+      },
+      {
+        id: "r6",
+        title: "Build a practical dashboard",
+        duration: "34:18",
+        type: "video",
+      },
+    ],
+  },
+  {
+    id: "ui-ux-design",
+    title: "UI/UX Design Essentials",
+    category: "Design",
+    level: "Beginner",
+    duration: "6h 15m",
+    lessonsCount: 14,
+    rating: 4.8,
+    students: "1.8k",
+    price: 0,
+    instructor: "Marcus Lee",
+    role: "Product Designer",
+    avatar: "https://i.pravatar.cc/100?img=12",
+    cover:
+      "https://images.unsplash.com/photo-1586717791821-3f44a563fa4c?auto=format&fit=crop&w=1000&q=85",
+    accent: "pink",
+    description:
+      "Learn to design intuitive digital experiences. Explore visual hierarchy, layout systems, wireframing, prototyping, and design handoff.",
+    skills: [
+      "Visual hierarchy",
+      "Wireframing",
+      "Prototyping",
+      "Design systems",
+    ],
+    lessons: [
+      {
+        id: "u1",
+        title: "Design thinking fundamentals",
+        duration: "12:05",
+        type: "video",
+      },
+      {
+        id: "u2",
+        title: "Color, type and hierarchy",
+        duration: "21:30",
+        type: "video",
+      },
+      {
+        id: "u3",
+        title: "Wireframes that work",
+        duration: "18:40",
+        type: "video",
+      },
+      {
+        id: "u4",
+        title: "UI foundations quiz",
+        duration: "8 min",
+        type: "quiz",
+        quiz: "design",
+      },
+      {
+        id: "u5",
+        title: "Prototype your first flow",
+        duration: "28:14",
+        type: "video",
+      },
+    ],
+  },
+  {
+    id: "javascript-pro",
+    title: "Modern JavaScript: The Complete Guide",
+    category: "Development",
+    level: "Beginner",
+    duration: "10h 20m",
+    lessonsCount: 22,
+    rating: 4.9,
+    students: "3.1k",
+    price: 0,
+    instructor: "Daniel Kim",
+    role: "JavaScript Developer",
+    avatar: "https://i.pravatar.cc/100?img=11",
+    cover:
+      "https://images.unsplash.com/photo-1555066931-4365d14bab8c?auto=format&fit=crop&w=1000&q=85",
+    accent: "blue",
+    description:
+      "Build a strong JavaScript foundation, from modern syntax and arrays to asynchronous programming and browser APIs.",
+    skills: ["ES6+", "DOM manipulation", "Async JavaScript", "API integration"],
+    lessons: [
+      {
+        id: "j1",
+        title: "JavaScript in the browser",
+        duration: "11:20",
+        type: "video",
+      },
+      {
+        id: "j2",
+        title: "Variables and data types",
+        duration: "19:15",
+        type: "video",
+      },
+      {
+        id: "j3",
+        title: "Functions and scope",
+        duration: "24:10",
+        type: "video",
+      },
+      {
+        id: "j4",
+        title: "JavaScript essentials quiz",
+        duration: "10 min",
+        type: "quiz",
+        quiz: "javascript",
+      },
+      {
+        id: "j5",
+        title: "Promises and async/await",
+        duration: "31:42",
+        type: "video",
+      },
+    ],
+  },
+  {
+    id: "data-analytics",
+    title: "Data Analytics with Power BI",
+    category: "Business",
+    level: "Intermediate",
+    duration: "7h 30m",
+    lessonsCount: 16,
+    rating: 4.7,
+    students: "980",
+    price: 0,
+    instructor: "Priya Nair",
+    role: "Analytics Consultant",
+    avatar: "https://i.pravatar.cc/100?img=44",
+    cover:
+      "https://images.unsplash.com/photo-1551288049-bebda4e38f71?auto=format&fit=crop&w=1000&q=85",
+    accent: "orange",
+    description:
+      "Turn raw data into clear business insights with data modeling, DAX basics, interactive reports, and dashboard storytelling.",
+    skills: ["Data modeling", "Power Query", "DAX basics", "Dashboard design"],
+    lessons: [
+      {
+        id: "d1",
+        title: "Getting started with analytics",
+        duration: "10:14",
+        type: "video",
+      },
+      {
+        id: "d2",
+        title: "Prepare and transform data",
+        duration: "25:40",
+        type: "video",
+      },
+      {
+        id: "d3",
+        title: "Build your first report",
+        duration: "32:18",
+        type: "video",
+      },
+      {
+        id: "d4",
+        title: "Analytics checkpoint",
+        duration: "10 min",
+        type: "quiz",
+        quiz: "analytics",
+      },
+    ],
+  },
+  {
+    id: "productivity",
+    title: "Productivity Systems for Creators",
+    category: "Personal Growth",
+    level: "Beginner",
+    duration: "4h 05m",
+    lessonsCount: 10,
+    rating: 4.8,
+    students: "1.2k",
+    price: 0,
+    instructor: "Olivia Chen",
+    role: "Creator & Educator",
+    avatar: "https://i.pravatar.cc/100?img=49",
+    cover:
+      "https://images.unsplash.com/photo-1455390582262-044cde6a277a?auto=format&fit=crop&w=1000&q=85",
+    accent: "green",
+    description:
+      "Create a sustainable workflow, prioritize meaningful work, and build simple systems that protect your focus.",
+    skills: [
+      "Goal setting",
+      "Time blocking",
+      "Focus systems",
+      "Weekly reviews",
+    ],
+    lessons: [
+      {
+        id: "p1",
+        title: "Design your ideal week",
+        duration: "13:20",
+        type: "video",
+      },
+      {
+        id: "p2",
+        title: "Priorities over busywork",
+        duration: "16:45",
+        type: "video",
+      },
+      {
+        id: "p3",
+        title: "Build a focus routine",
+        duration: "19:10",
+        type: "video",
+      },
+    ],
+  },
+  {
+    id: "figma-advanced",
+    title: "Figma Advanced: Design Systems",
+    category: "Design",
+    level: "Advanced",
+    duration: "5h 50m",
+    lessonsCount: 12,
+    rating: 4.9,
+    students: "760",
+    price: 0,
+    instructor: "Nina Patel",
+    role: "Lead Product Designer",
+    avatar: "https://i.pravatar.cc/100?img=32",
+    cover:
+      "https://images.unsplash.com/photo-1558655146-d09347e92766?auto=format&fit=crop&w=1000&q=85",
+    accent: "violet",
+    description:
+      "Create robust design systems in Figma using variables, components, variants, libraries, and collaborative workflows.",
+    skills: ["Component systems", "Variables", "Auto layout", "Team libraries"],
+    lessons: [
+      {
+        id: "f1",
+        title: "Design systems overview",
+        duration: "14:10",
+        type: "video",
+      },
+      {
+        id: "f2",
+        title: "Build flexible components",
+        duration: "26:20",
+        type: "video",
+      },
+      {
+        id: "f3",
+        title: "Variables and modes",
+        duration: "23:50",
+        type: "video",
+      },
+    ],
+  },
+];
+
+export const quizzes = {
+  react: [
+    {
+      question: "What is the main purpose of a React component?",
+      options: [
+        "To style a webpage",
+        "To build reusable UI pieces",
+        "To store database records",
+        "To replace HTML",
+      ],
+      answer: 1,
+    },
+    {
+      question: "Which Hook is used to manage local component state?",
+      options: ["useRoute", "useFetch", "useState", "useStyle"],
+      answer: 2,
+    },
+    {
+      question: "What does JSX let you do?",
+      options: [
+        "Write UI syntax inside JavaScript",
+        "Query a database",
+        "Compile CSS",
+        "Create API routes",
+      ],
+      answer: 0,
+    },
+  ],
+  design: [
+    {
+      question: "What does visual hierarchy help users understand?",
+      options: [
+        "Which content matters most",
+        "How a server works",
+        "Database relationships",
+        "File compression",
+      ],
+      answer: 0,
+    },
+    {
+      question: "A wireframe is primarily used to...",
+      options: [
+        "Finalize brand colors",
+        "Plan structure and layout",
+        "Export production code",
+        "Measure page speed",
+      ],
+      answer: 1,
+    },
+  ],
+  javascript: [
+    {
+      question:
+        "Which keyword declares a block-scoped variable that can be reassigned?",
+      options: ["const", "var only", "let", "static"],
+      answer: 2,
+    },
+    {
+      question: "What does async/await help simplify?",
+      options: [
+        "CSS animations",
+        "Asynchronous code",
+        "HTML semantics",
+        "Image compression",
+      ],
+      answer: 1,
+    },
+  ],
+  analytics: [
+    {
+      question: "What is the purpose of data visualization?",
+      options: [
+        "Hide data",
+        "Communicate patterns and insights",
+        "Duplicate records",
+        "Replace data cleaning",
+      ],
+      answer: 1,
+    },
+    {
+      question: "Which Power BI feature is used to transform data?",
+      options: ["Power Query", "PowerPoint", "Paint", "Task Manager"],
+      answer: 0,
+    },
+  ],
+};
