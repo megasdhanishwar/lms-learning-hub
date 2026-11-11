@@ -886,8 +886,8 @@ a {
 .course-category {
     position: absolute;
     z-index: 1;
-    left: 13px;
-    top: 13px;
+    /* left: 1px; */
+    top: -12px;
     border-radius: 6px;
     padding: 5px 8px;
     font-size: 8px;
