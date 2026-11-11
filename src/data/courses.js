@@ -233,9 +233,8 @@ export const courses = [
     price: 0,
     instructor: "Olivia Chen",
     role: "Creator & Educator",
-    avatar: "https://i.pravatar.cc/100?img=49",
-    cover:
-      "https://images.unsplash.com/photo-1455390582262-044cde6a277a?auto=format&fit=crop&w=1000&q=85",
+    avatar: "https://i.ytimg.com/vi/5791L8VEHZw/maxresdefault.jpg",
+    cover: "https://i.ytimg.com/vi/5791L8VEHZw/maxresdefault.jpg",
     accent: "green",
     description:
       "Create a sustainable workflow, prioritize meaningful work, and build simple systems that protect your focus.",
